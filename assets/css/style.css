@@ -1,0 +1,728 @@
+/* 
+font-family: 'Work Sans', sans-serif;
+*/
+
+body 
+{
+    background-color: #2e2e2e;
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+/* ::::::::::.......... here Start nav ..........:::::::::: */
+
+.nav-Contain{
+    margin: 30px 70px 30px  0;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.my-nav
+{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.my-nav a
+{   
+    color: #ebccc2;
+    text-decoration: none;
+}
+
+.my-nav a:hover
+{   
+    color: #fff;
+}
+
+.my-nav ul
+{
+    padding-right: 40px ;
+}
+
+.my-nav ul li
+{
+    color: #ebccc2;
+    list-style: none;
+    display: inline-block;
+    padding-left: 17px;
+}
+/* ::::::::::.......... Here End nav ..........:::::::::: */
+
+
+
+/* ::::::::.........Here Start Side Nav..........:::::::: */
+.side-nav
+{
+    flex-direction: column;
+    position: fixed;
+    top: 28px;
+
+}
+
+.logo 
+{
+    margin-left: 50px;
+    padding-bottom: 40%;   
+}
+
+.side-nav ul{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40%;
+    list-style: none;
+}
+
+.side-nav ul li
+{
+    font-size: 15px;
+}
+
+.side-nav ul li:hover
+{
+    color: #fff;
+    list-style-type: circle;
+
+}
+.side-nav ul li a:hover
+{
+    color: #fff;
+
+}
+.side-nav ul li::before
+{
+    content: "";
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background: none;
+    border: 1px solid rgb(115, 115, 115) ;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+
+.side-nav ul li a 
+{
+    text-decoration: none;
+    color:  rgb(115, 115, 115) ;
+}
+
+
+.side-nav ul span 
+{
+    border-left: 1px solid rgb(115, 115, 115) ;
+    margin-left: 8px;
+    margin-bottom: 10px;
+    width: 10px;
+    height: 70px;
+}
+/* ::::::::.........Here End Side Nav..........:::::::: */
+
+
+
+/* :::::.....Here Start go-beyond-music Section.....::::: */
+.go-beyond-music 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.go-beyond-music p
+{
+    width: 45%;
+    font-size: 33px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    padding-top: 30px;
+    color: #ebccc2; 
+    padding-left: 25%;
+}
+
+.go-beyond-music img 
+{
+   width: 100%;
+   padding: 7% 5% ;
+   box-sizing: border-box;
+}
+
+/* :::::......Here End go-beyond-music Section......::::: */
+
+/* :::::......Here Start design-alchemy Section......::::: */
+.design-alchemy
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.design-alchemy div:nth-child(1)
+{
+    display: flex;
+    flex-direction: row-reverse;
+    box-sizing: border-box;
+}
+
+.design-alchemy img {
+    width: 60%;
+    margin-bottom: 120px;
+    padding-right: 70px;
+}
+
+.design-alchemy div:nth-child(2)
+{
+    margin: 0;
+    padding: 0;
+    width: 47%;
+}
+
+.design-alchemy h1 
+{
+    color: #ebccc2;
+    letter-spacing: 7px;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.design-alchemy p 
+{
+    color: rgb(115, 115, 115) ;
+    width: 73%;
+    line-height: 27px;
+}
+/* :::::......Here End design-alchemy Section......::::: */
+
+
+/* :::::......Here Start (the lounger) and (experience)  Section......::::: */
+.the-lounger img, .experience img{
+    width: 100%;
+   position: absolute;
+   top: -140px;
+   left: -290px;
+   clip: rect(0, 69rem, 55rem, 0);
+   z-index: -1;
+}
+
+.the-lounger-text h1 
+{
+    color: #ebccc2;
+    letter-spacing: 7px;
+    font-size: 32px;
+    position: absolute;
+    right: 20%;
+    top: 19%;
+}
+
+.the-lounger-text p, .experience p
+{
+    color: rgb(115, 115, 115) ;
+    width: 33%;
+    font-size: 18px;
+    line-height: 27px;
+    position: absolute;
+    right: 5%;
+    top: 37%;
+}
+
+.experience h1
+{
+    color: #ebccc2;
+    letter-spacing: 7px;
+    font-size: 32px;
+    position: absolute;
+    right: 10%;
+    top: 19%;
+}
+/* :::::......Here End the lounger  Section......::::: */
+
+/* :::::......Here Start inspiration  Section......::::: */
+.inspiration 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 18%;
+    margin-top: 6%;
+}
+
+
+/* -------- erste teil { text und Button } */
+.text-header-inspiratin
+{
+    display: block;
+    margin: 10% 0;
+}
+
+.text-header-inspiratin p
+{
+    color: #ebccc2;
+    font-size: 22px;
+}
+
+.text-header-inspiratin h1
+{
+    color: #ebccc2;
+    font-size: 40px;
+    margin: 0;
+    padding-bottom: 40px;  
+}
+
+
+.text-header-inspiratin button
+{
+    border: 1px solid #fff;
+    color: rgb(115, 115, 115) ;
+    background-color: #2e2e2e;
+    padding: 5px 10px;
+    border-radius: 3px;  
+}
+
+.text-header-inspiratin h2
+{
+    color: rgb(115, 115, 115) ;
+    font-size: 22px;
+}
+
+/* -------- zweite teil { text und img links } */
+.sound-alchemy
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sound-alchemy img
+{
+    width: 42%;
+    padding-right: 20px;
+
+}
+
+
+.sound-alchemy-text h2
+{
+    color: #ebccc2;
+    font-size: 22px;
+}
+
+.sound-alchemy-text h1
+{
+    color: #ebccc2;
+    font-size: 40px;
+    margin: 0;
+}
+
+.sound-alchemy-text p
+{
+    color: rgb(115, 115, 115) ;
+    font-size: 22px;
+}
+
+/* -------- dritte teil { text und img recht } */
+.Sound-Architecture 
+{
+    display: flex;
+    flex-direction: row-reverse ;
+    align-items: center;
+    margin-bottom: 8%;
+}
+
+.Sound-Architecture-text
+{
+    padding-right: 12%;
+}
+
+.Sound-Architecture-text h2
+{
+    color: #ebccc2;
+    font-size: 22px;
+}
+
+.Sound-Architecture-text h1
+{
+    color: #ebccc2;
+    font-size: 40px;
+    margin: 0;
+    width: 70% 
+}
+
+.Sound-Architecture-text p
+{
+    color: rgb(115, 115, 115) ;
+    font-size: 22px;  
+}
+
+.Sound-Architecture img
+{
+    position: relative;
+    width: 42%;
+    left:  -16%;
+}
+
+/* :::::......Here Start Shop  Section......::::: */
+
+.shop
+
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.shop-background img
+{
+
+    width: 100%;
+    position: absolute;
+    top: -10px;
+    left: -290px;
+    clip: rect(0rem, 69rem, 55rem, 0);
+    z-index: -1;
+}
+
+.shop-text-headphone
+{
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.h9-price
+{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.h9-price h1 
+{
+    color: #ebccc2;
+    font-size: 30px;
+    text-align: center;
+}
+
+.h9-price h2
+{
+
+    color: rgb(115, 115, 115) ;
+    font-size: 22px;  
+    margin: 10px;
+}
+
+.h9-price button 
+{
+    background-color: #ebccc2;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 3px;
+}
+.h9-price button a 
+{
+    text-decoration: none;
+    color: #2e2e2e;
+}
+
+
+/* :::::......Here End Shop  Section......::::: */
+
+
+@media (max-width: 667px) 
+{
+    
+    
+    .nav-Contain
+    {
+        margin-right: 7px;
+        font-size: 7px;
+        font-size: 8px;
+
+    }
+  
+    
+    .my-nav ul
+    {
+        padding: 0;
+        margin: 0 20px;
+    }
+    
+    .my-nav ul li
+    {
+       display: inline-block;
+       padding-right: 6px;
+       padding-left:0
+       
+
+    }
+
+    .side-nav
+    {
+        top: 58px;
+        position: fixed;
+
+    }
+
+    .logo 
+    {
+        width: 30px;
+        margin-left: 5px;
+        padding-top: 20px;
+        padding-bottom: 10%;   
+    }
+
+    .side-nav ul{
+        padding-top: 10%;
+        padding-left: 10px;
+    }
+
+    .side-nav ul li
+    {
+        font-size: 10px;
+    }
+
+   
+    
+    .side-nav ul li::before
+    {
+        width: 8px;
+        height: 8px;
+        margin-right: 10px;
+    }
+    .side-nav ul span 
+    {
+        margin-bottom: 3px;
+        height: 50px;
+    }
+
+
+
+    .go-beyond-music p
+    {
+        width: 45%;
+        font-size: 18px;
+        line-height: 20px;
+        letter-spacing: 1px;
+        padding-left: 33%;
+    }
+
+    .go-beyond-music img 
+    {
+        width: 90%;
+        padding: 7% 1% 0 11%;
+    }
+
+    .design-alchemy
+    {
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 10%;
+    }
+
+    .design-alchemy div:nth-child(1)
+    {
+        display: flex;
+        flex-direction: row-reverse;
+        box-sizing: border-box;
+    }
+
+    .design-alchemy img {
+        width: 55%;
+        margin-bottom: 0;
+        margin-top: 30%;
+        padding-right: 30px;
+    }
+
+    .design-alchemy div:nth-child(2)
+    {
+     
+        width: 80%;
+    }
+
+    .design-alchemy h1 
+    {
+        color: #ebccc2;
+        letter-spacing: 2px;
+        font-size: 14px;
+        margin-top: 70px;
+        
+    }
+
+    .design-alchemy p 
+    {
+        width: 100%;
+        line-height: 10px;
+        font-size:6px;
+        
+
+    }
+
+  
+    .the-lounger img, .experience img
+    {
+       width: 200%;
+       top: -10px;
+       left: -250px;
+       clip: rect(0, 59rem, 55rem, 0);
+    }
+    
+    
+    .the-lounger-text h1
+    {
+        letter-spacing: 7px;
+        font-size: 22px;
+        position: absolute;
+        right: 30%;
+        top: 74%;
+    }
+    
+    .the-lounger-text p
+    {
+        width: 73%;
+        height: 10%;
+        font-size: 13px;
+        line-height: 11px;
+        right: 20%;
+        top: 87%;
+    }
+   
+    .experience h1
+    {
+        letter-spacing: 7px;
+        font-size: 22px;
+        right: -8%;
+        top: 74%;
+    }
+    .experience p
+    {
+        width: 73%;
+        height: 10%;
+        font-size: 13px;
+        line-height: 11px;
+        right: -3%;
+        top: 87%;
+
+    }
+    .my-video
+    {
+        position: absolute;
+        right:  10px;
+        margin-left: 75px;
+    }
+    .text-header-inspiratin
+    {
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+
+    .text-header-inspiratin p
+    {
+        font-size: 15px;
+        width: 150px;
+    }
+
+    .text-header-inspiratin h1
+    {
+        font-size: 14px;
+    }
+
+
+    .text-header-inspiratin button
+    {
+        padding: 5px 1px;
+        width: 50px;
+        font-size: 10px;
+
+    }
+
+    .text-header-inspiratin h2
+    {
+        font-size: 12px;
+        width: 190px;
+    }
+
+    .sound-alchemy
+    {
+        flex-direction: column-reverse;
+        margin-bottom: 40px;
+    }
+
+    .sound-alchemy img
+    {
+        width: 42%;
+        padding-right: 90px;
+        padding-top: 30px;
+    }
+
+    .sound-alchemy-text h2
+    {
+        font-size: 15px;
+    }
+
+    .sound-alchemy-text h1
+    {
+        font-size: 20px;
+    }
+
+    .sound-alchemy-text p
+    {
+        font-size: 10px;
+        padding-right: 80px;
+    }
+    .Sound-Architecture img {
+        padding-top: 30px;
+    }
+
+    .Sound-Architecture 
+    {
+        flex-direction: column-reverse ;
+    }
+
+    .Sound-Architecture-text
+    {
+        padding-left: 17px;
+    }
+
+    .Sound-Architecture-text h2
+    {
+        font-size: 12px;
+    }
+
+    .Sound-Architecture-text h1
+    {
+        font-size: 18px;
+        width: 90% 
+    }
+
+    .Sound-Architecture-text p
+    {
+        font-size: 10px;  
+    }
+    .shop-background img
+    {
+        width: 200%;
+        top: -10px;
+        left: -250px;
+        clip: rect(0, 59rem, 55rem, 0);
+    }
+
+    .shop-text-headphone
+    {
+        top: 390px;
+        position: relative;
+    }
+    .shop-text-headphone img
+    {
+        width: 50%;
+    }
+
+
+}
